@@ -24,6 +24,10 @@ function prependDriver(driver) {
 function destructivelyRemoveLastDriver () {
   drivers.pop();
 }
+function prependDriver(driver) {
+   driversCopy = ["Milo", "Otis", "Garfield"];
+  driversCopy.pop(driver);
+  return driversCopy;
 
 function destructivelyRemoveFirstDriver() {
   drivers.shift();
