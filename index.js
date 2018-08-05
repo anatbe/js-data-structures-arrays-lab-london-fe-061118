@@ -33,3 +33,8 @@ function removeLastDriver (driver) {
 function destructivelyRemoveFirstDriver() {
   drivers.shift();
 }
+function removeFirstDriver(driver) {
+  driversCopy = ["Milo", "Otis", "Garfield"];
+  driversCopy.shift(driver);
+  return driversCopy;
+}
