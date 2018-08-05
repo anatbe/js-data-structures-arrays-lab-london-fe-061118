@@ -5,6 +5,12 @@ function destructivelyAppendDriver(driver) {
 drivers.push(driver);
 }
 
+function appendDriver(driver) {
+  driversCopy = ["Milo", "Otis", "Garfield"];
+  driverCopy.
+  
+}
+
 function destructivelyPrependDriver(driver) {
   drivers.unshift(driver);
 }
@@ -14,7 +20,4 @@ function destructivelyRemoveLastDriver () {
 }
 function destructivelyRemoveFirstDriver() {
   drivers.shift();
-}
-function appendDriver(driver) {
-  
 }
