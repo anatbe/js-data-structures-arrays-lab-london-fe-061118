@@ -11,4 +11,6 @@ function destructivelyPrependDriver(driver) {
   drivers. unshift (driver);
 }
 
-function 
+function destructivelyAppendDriver(driver) {
+  driver. pop (driver);
+}
