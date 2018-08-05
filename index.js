@@ -7,7 +7,7 @@ drivers.push(driver);
 
 function appendDriver(driver) {
   driversCopy = ["Milo", "Otis", "Garfield"];
-  driversCopy.
+  driversCopy.push(driver);
   
 }
 
