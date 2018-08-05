@@ -6,3 +6,5 @@ drivers. push (driver);
 }
 
 drivers;
+
+destructivelyPrependDriver()
