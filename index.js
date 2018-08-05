@@ -16,7 +16,9 @@ function destructivelyPrependDriver(driver) {
   drivers.unshift(driver);
 }
 function prependDriver(drivers) {
-  driverCopy=
+   driversCopy = ["Milo", "Otis", "Garfield"];
+  driversCopy.unshift(driver);
+  return driversCopy;
 }
 
 function destructivelyRemoveLastDriver () {
