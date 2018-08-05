@@ -15,6 +15,9 @@ function appendDriver(driver) {
 function destructivelyPrependDriver(driver) {
   drivers.unshift(driver);
 }
+function prependDriver(drivers) {
+  driverCopy=
+}
 
 function destructivelyRemoveLastDriver () {
   drivers.pop();
